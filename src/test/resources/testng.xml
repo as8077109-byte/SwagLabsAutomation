@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EYOUTH Suite">
+
+    <test name="All Tests">
+        <classes>
+
+            <class name="com.eyouth.tests.SearchTest"/>
+            <class name="com.eyouth.tests.LoginTest"/>
+            <class name="com.eyouth.tests.SignupTest"/>
+            <class name="com.eyouth.tests.CoursesTest"/>
+            <class name="com.eyouth.tests.FooterTest"/>
+
+        </classes>
+    </test>
+
+</suite>
